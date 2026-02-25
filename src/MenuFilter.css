@@ -1,0 +1,23 @@
+/* src/MenuFilter.css */
+
+li {
+    background: #f9f9f9; /* Light gray background */
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Increase font size for better readability */
+}
+
+/* Change color for all items */
+li {
+    background: #007bff; /* Blue background */
+    color: white; /* White text */
+}
+
+/* Hover effect */
+li:hover {
+    background: #0056b3; /* Darker blue background on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
