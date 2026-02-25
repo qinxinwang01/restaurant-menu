@@ -63,4 +63,7 @@ Run self-review: handle trimming spaces, empty query, and category casing.
 Optional: debounce search input for smoother typing.
 
 Test: Try leading/trailing spaces and different capitalization; confirm behavior is stable.
+
+
+
 Claude initially proposed a vanilla HTML/JS plan, but my project is React so I adapted the steps to match the component/state workflow
